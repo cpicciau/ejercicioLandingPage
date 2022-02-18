@@ -1,6 +1,53 @@
 /* CSS TYPOGRAFÍA */
 /* **************************************************************** */
 
-@font-face {
-    
+*, a{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.banner__boton, .texto__boton{
+    color: white;
+}
+
+/* BANNER */
+.banner__titulo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.banner_subtitulo {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: var(--colorTitulo);
+    margin-bottom: 2rem;
+}
+
+.banner__boton {
+    border-radius: 30px;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+/* CONTENIDO */
+.texto {
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+.texto p {
+    margin-bottom: 32px;
+}
+
+.texto__cuerpolink--link {
+    color: var(--colorLinks);
+    text-decoration: underline;
+}
+
+.texto__boton {
+    background-color: var(--colorBotonSteps);
+    border-radius: 10px;
+    padding: 0.8rem 2rem;
+
 }
