@@ -1,4 +1,47 @@
 /* CSS LAYOUT */
 /* **************************************************************** */
 
+/* VARIABLES */
+:root{
+    /* Ancho de Escritorio 2022*/
+    --anchoPantalla: 1366px;
+}
 
+
+.container{
+    height: 100vh;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main, footer{
+    width: calc(var(--anchoPantalla)/2);
+}
+
+/* Contenido */
+main{
+    border-radius: 20px;
+    height: 90%;
+   
+}
+
+/* Zona Banner */
+.banner, .texto, .contacto{
+    padding: 5%;
+}
+
+
+/* FOOTER */
+footer{
+    height: 5%;
+    /* Espacio laterales */
+    padding: 2%;
+    text-align: center;
+}
+
+
+
+/* FOOTER */
+ 
