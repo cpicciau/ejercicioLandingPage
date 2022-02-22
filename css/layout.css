@@ -7,7 +7,6 @@
     --anchoPantalla: 1366px;
 }
 
-
 .container{
     height: 100vh;
     padding-top: 5%;
@@ -24,12 +23,36 @@ main, footer{
 main{
     border-radius: 20px;
     height: 90%;
-   
 }
 
 /* Zona Banner */
 .banner, .texto, .contacto{
     padding: 5%;
+}
+
+/* ZONA CONTACTO */
+img {
+    border-radius: 50%;
+}
+
+.contacto {
+    display: flex; 
+    align-items: center;
+    padding-top: 5%;
+}
+
+.contacto__datos {
+    padding-left: 20px;
+}
+
+.texto__article {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+li {
+    line-height: 25px;
 }
 
 
@@ -42,6 +65,4 @@ footer{
 }
 
 
-
-/* FOOTER */
  
